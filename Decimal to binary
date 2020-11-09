@@ -1,4 +1,4 @@
-    public static String decimal_A_binario(int num) {
+    public String decimal_A_binario(int num) {
         String binary = "";
         if(num > 0){
             int[] binarioList = new int[50];
