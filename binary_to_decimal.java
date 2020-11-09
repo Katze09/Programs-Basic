@@ -15,8 +15,7 @@ public String binary_to_decimal(String num) {
         }
         j++;
     }
-    for (int i = 0; i < counter; i++) {
+    for (int i = 0; i < counter; i++) 
         decimal = decimal + decimalNum[i];
-    }
     return "" + decimal;
 }
